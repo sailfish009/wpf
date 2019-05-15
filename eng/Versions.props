@@ -57,7 +57,8 @@
     <RestoreSources>
       $(RestoreSources);
       https://dotnet.myget.org/F/dotnet-corefxlab/api/v3/index.json;
-      https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json
+      https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json;
+      https://dotnetfeed.blob.core.windows.net/dotnet-coreclr/index.json
     </RestoreSources>
   </PropertyGroup>
   <!--Package names-->
